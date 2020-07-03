@@ -26,19 +26,24 @@ const args = process.argv.slice(2);
 const format = args[0] || 'bo3';
 
 function start() {
-  axios.get(`https://raw.github.com/WalshyDev/FNC-Bingo/${format}.txt`)
-    .then(res => res.text())
+  axios.get(`https://raw.githubusercontent.com/WalshyDev/FNC-Bingo/master/${format}.txt`,
+    {
+      headers: { 'User-Agent': 'Mozilla/5.0' }
+    })
+    .then(res => res.data)
     .then(txt => {
       const words = [];
 
-      for (line in txt.split('\n')) {
-        if (line === '' || line.startsWith === '//') continue;
-
+      for (line of txt.split('\n')) {
+        if (line === '' || line.startsWith('//')) continue;
         console.log(line);
         words.push(line);
       }
 
       generateWordList(words);
+    })
+    .catch(err => {
+      console.error(err);
     });
 }
 
