@@ -3,32 +3,25 @@ Knife kill
 Kill through smoke
 Molotov kill
 Grenade kill
+Kill while blind
 No scope kill
 Runboost kill
-Kill while blind
 Wallbang kill
 Zeus kill
 Shotgun kill
 R8 kill
-3+ kill in a round
+{random,3,4}+ kill in a round
 Ace
-1v{random,2,4} clutch (FNC)
+1v{random,3,5} clutch (FNC)
 30+ kills (at end of map, FNC)
 Team kill (FNC)
 
-// Player specific
-{player} knife
-{player} ace
-{player} top frag
-{player} second frag
-{player} 100+ ADR at end of map
-
-// Random
-Lose map pick (FNC)
-Win enemy map pick (FNC)
-Solo retake (FNC)
-Solo defense (FNC)
-Pistol round win (FNC)
+// General Game
+Lose map pick
+Win enemy map pick
+Solo retake and defuse (FNC)
+Solo defend the bomb (FNC)
+Eco/pistol round win (FNC)
 Bomb plant under 1s
 Defuse under 1s
 {map} pick
@@ -40,7 +33,35 @@ Ninja defuse
 Whole team alive at end of round (FNC)
 Overtime
 Double overtime
-Win {amount}+ rounds in a half (FNC)
+Win 10+ rounds in a half (FNC)
 Reversed sweep (FNC)
 Tech issues
 Bomb plant with all players alive
+
+// Players
+{player} knife
+{player} ace
+{player} top frag
+{player} second frag
+{player} 100+ ADR at end of map
+Force-buy win
+1 min without anyone dying
+huge whiff
+Clutch defuse
+{player} Most AWP kills on server
+{player} Most Assists on server
+{player} above {random,50,70}% of HS kills
+{player} most HS kills on server
+{player} above {random,1,1.3} CT side HLTV Rating
+{player} above {random,1,1.3} T side HLTV Rating
+{player} gets {random,3,6} multikills in a game
+{player} gets most entry frags
+{player} gets lowest HLTV rating
+{player} gets highest/above X HLTV rating
+{player} gets 2+ clutches in a map
+{player} dies less than 0.5 times / round
+{player} gets most kills in a pistol round 
+{player} saves weapon more than 3 times in a map 
+Get to 15 rounds first but chokes and game goes to OT (FNC)
+AWP glasscannon
+Kill chicken/balloon

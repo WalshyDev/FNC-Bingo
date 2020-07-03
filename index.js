@@ -36,7 +36,7 @@ function start() {
 
       for (line of txt.split('\n')) {
         if (line === '' || line.startsWith('//')) continue;
-        console.log(line);
+
         words.push(line);
       }
 
