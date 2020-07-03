@@ -1,0 +1,46 @@
+// Kills
+Knife kill
+Kill through smoke
+Molotov kill
+Grenade kill
+No scope kill
+Runboost kill
+Kill while blind
+Wallbang kill
+Zeus kill
+Shotgun kill
+R8 kill
+3+ kill in a round
+Ace
+1v{random,2,4} clutch (FNC)
+30+ kills (at end of map, FNC)
+Team kill (FNC)
+
+// Player specific
+{player} knife
+{player} ace
+{player} top frag
+{player} second frag
+{player} 100+ ADR at end of map
+
+// Random
+Lose map pick (FNC)
+Win enemy map pick (FNC)
+Solo retake (FNC)
+Solo defense (FNC)
+Pistol round win (FNC)
+Bomb plant under 1s
+Defuse under 1s
+{map} pick
+{map} ban
+BM (FNC)
+Comeback after {amount} rounds behind (FNC)
+Saving (FNC)
+Ninja defuse
+Whole team alive at end of round (FNC)
+Overtime
+Double overtime
+Win {amount}+ rounds in a half (FNC)
+Reversed sweep (FNC)
+Tech issues
+Bomb plant with all players alive
