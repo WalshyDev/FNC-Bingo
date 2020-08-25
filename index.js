@@ -69,7 +69,7 @@ function genWord(words) {
     .replace('{player}', players[rand(players.length)])
     .replace('{map}', maps[rand(maps.length)])
     .replace('{amount}', rand(maxAmount, minAmount))
-    .replace(/\{random,(\d+)(?:,(\d+))?\}/, regexRand);
+    .replace(/\{random,(\d+(\.\d+)?)(?:,(\d+(\.\d+)?))?\}/, regexRand);
 }
 
 start();

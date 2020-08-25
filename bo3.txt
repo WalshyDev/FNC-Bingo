@@ -58,10 +58,12 @@ Clutch defuse
 {player} gets most entry frags
 {player} gets lowest HLTV rating
 {player} gets highest/above X HLTV rating
-{player} gets 2+ clutches in a map
+{player} gets {random,2,4}+ clutches in a map
 {player} dies less than 0.5 times / round
 {player} gets most kills in a pistol round 
 {player} saves weapon more than 3 times in a map 
 Get to 15 rounds first but chokes and game goes to OT (FNC)
 AWP glasscannon
 Kill chicken/balloon
+Lose against full eco (FNC)
+Jinxed
