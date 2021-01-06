@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/WalshyDev/FNC-Bingo#readme",
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.21.1"
   }
 }
